@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import profilePic from '../images/profilePic.jpg';
+import profilePic from '../images/portfolioPic.jpg';
 
 class About extends Component
 {
@@ -16,10 +16,9 @@ class About extends Component
             <div className="row">
 
               <div className="col-12 col-md-4">
-                <img className="profile" src={profilePic} alt="Nicholas Parr"
-                  className="img-responsive" />
+                <img className="profile img-responsive fixImage" src={profilePic} alt="Nicholas Parr"/>
               </div>
-              <div className="col-12 col-md-8  text-center">
+              <div className="col-12 col-md-6">
                 <p>Recent Interactive multimedia major graduate with minors in history and classics from the College of New
                   Jersey. Skilled in the fields of web and game design with experience in C#, Unity engine, JavaScript, PHP,
                   MySQL, CSS, and AngularJS. Motivated self-starter seeking employment opportunities in programming and/or

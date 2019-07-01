@@ -18,11 +18,22 @@ background-color: #6d6d6d;
 color: white;
 
 }
+h1
+{
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
 h2
 {
 
+  
   text-align: center;
-
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+  background-color: #1b1b1b;
 }
 
 .m-0
@@ -105,4 +116,22 @@ margin:10px auto;
 {
   text-decoration: underline;
   font-weight: bold;
+}
+
+.fixImage
+{
+
+  transform: rotate(90deg);
+  margin: 10px;
+  border-style: solid;
+  border-color: #1b1b1b;
+  border-width: 2px;
+
+}
+
+.aboutText
+{
+
+  max-width: 50%;
+
 }
