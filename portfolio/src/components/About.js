@@ -16,7 +16,7 @@ class About extends Component
             <div className="row">
 
               <div className="col-12 col-md-4">
-                <img className="profile" src={profilePic} alt="Picture of Nicholas Parr"
+                <img className="profile" src={profilePic} alt="Nicholas Parr"
                   className="img-responsive" />
               </div>
               <div className="col-12 col-md-8  text-center">

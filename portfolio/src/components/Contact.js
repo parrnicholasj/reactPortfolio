@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Resume from '../images/Nicholas Parr Resume.pdf'
 
 class Footer extends Component
 {
@@ -10,21 +11,13 @@ class Footer extends Component
         <h2>Contact</h2>
         <div className="row justify-content-center">
 
-          <div className="contacts col-5 col-xl-2">
-            <a href="mailto:parrnicholasj@gmail.com">parrnicholasj@gmail.com</a>
-          </div>
+          <a className="contacts col-5 col-xl-2" href="mailto:parrnicholasj@gmail.com">parrnicholasj@gmail.com</a>
 
-          <div className="contacts col-5 col-xl-2">
-            <a href="https://www.linkedin.com/in/nicholas-parr-854b61b7/">linkedin</a>
-          </div>
+          <a className="contacts col-5 col-xl-2" href="https://www.linkedin.com/in/nicholas-parr-854b61b7/">linkedin</a>
 
-          <div className="contacts col-5 col-xl-2">
-            <a href="https://github.com/parrnicholasj">Github</a>
-          </div>
+          <a className="contacts col-5 col-xl-2" href="https://github.com/parrnicholasj">Github</a>
 
-          <div className="contacts col-5 col-xl-2">
-            <a href="assets/images/Nicholas Parr Resume.pdf">Resume</a>
-          </div>
+          <a className="contacts col-5 col-xl-2" href={Resume}>Resume</a>
 
         </div>
       </>

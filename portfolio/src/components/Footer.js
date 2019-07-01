@@ -12,7 +12,7 @@ class Footer extends Component
 
           <div className=" col-12 footer-copyright text-center py-3 darker">
 
-            Copyright
+            Nicholas Parr
 
           </div>
 

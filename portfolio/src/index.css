@@ -18,6 +18,12 @@ background-color: #6d6d6d;
 color: white;
 
 }
+h2
+{
+
+  text-align: center;
+
+}
 
 .m-0
 {
@@ -82,4 +88,21 @@ margin:10px auto;
   margin: 20px;
   text-align: center;
 
+}
+
+.card
+{
+
+  background-color: #6d6d6d;
+  padding: 10px;
+  margin: 10px;
+  border-width: medium;
+  border-color: #424242;
+
+}
+
+.card-title
+{
+  text-decoration: underline;
+  font-weight: bold;
 }
