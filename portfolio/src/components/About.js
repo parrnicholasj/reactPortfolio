@@ -9,14 +9,14 @@ class About extends Component
     return (
       <>
         <div className="row">
-          <div className="col-12">
-            <h2>About Me</h2>
-          </div>
+
+          <h2 className="col-10 col-lg-6">About Me</h2>
+
           <div className="col-10">
             <div className="row">
 
               <div className="col-12 col-md-4">
-                <img className="profile img-responsive fixImage" src={profilePic} alt="Nicholas Parr"/>
+                <img className="profile img-responsive fixImage" src={profilePic} alt="Nicholas Parr" />
               </div>
               <div className="col-12 col-md-6">
                 <p>Recent Interactive multimedia major graduate with minors in history and classics from the College of New

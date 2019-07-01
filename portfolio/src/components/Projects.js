@@ -8,7 +8,7 @@ class Projects extends Component
     return (
       <>
 
-      <h2>Projects</h2>
+      <h2 className="col-10 col-lg-6">Projects</h2>
 
         <div className="container">
 
