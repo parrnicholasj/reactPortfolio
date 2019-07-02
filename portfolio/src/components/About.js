@@ -13,22 +13,17 @@ class About extends Component
           <h2 className="col-10 col-lg-6">About Me</h2>
 
           <div className="col-10">
-            <div className="row">
+            <div className="row justify-content-center">
 
-              <div className="col-12 col-md-4">
-                <img className="profile img-responsive fixImage" src={profilePic} alt="Nicholas Parr" />
+              <div className="col-5 col-md-4 m-2">
+                
+                <img className="fixImage " src={profilePic} alt="Nicholas Parr" />
+
               </div>
-              <div className="col-12 col-md-6">
-                <p>Recent Interactive multimedia major graduate with minors in history and classics from the College of New
-                  Jersey. Skilled in the fields of web and game design with experience in C#, Unity engine, JavaScript, PHP,
-                  MySQL, CSS, and AngularJS. Motivated self-starter seeking employment opportunities in programming and/or
-              multimedia.</p>
 
-                <p>Recently I started in a coding bootcamp where I hope to further my skills in web development. I am always
-                  looking to further enhance my skills and learn new and interesting things. I look forward to a long and
-                  exciting career in the software devlopment industry and the opportunity to experience and devlop for the
-                  new
-              technologies of tomorrow.</p>
+              <div className="col-10 col-md-6 m-2">
+                <p>Welcome to my portfolio where you can learn a bit about me and what I do as a programmer and fullstack devloper.  With my degree in Interactive Multimedia and knowledge gained from a web development boot camp I am a capable and adaptive full stack developer.  In college I was the president of our game design club where I shared my passion for developing with my peers by doing things such as leading tutorials and organizing game jams.  I have recently cultivated my skills with javascript and general web development skills by learning to work with tools such as Git, Jquery, Bootstrap, and React as well as grappling with a number of different APIs.  Feel free to contact me by email or linkedin.</p>
+
               </div>
 
             </div>
